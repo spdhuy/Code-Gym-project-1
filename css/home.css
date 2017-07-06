@@ -1,6 +1,7 @@
 
     body {
         margin: 0px;
+        background-color: #eee;
     }
 
     #footer{
@@ -13,7 +14,13 @@
         height: 50px;
         width: 100px;
     }
-
+    @media (min-width: 770px ) {
+        #header{
+            position: fixed;
+            z-index: 100;
+            width:100%;
+        }
+    }
 
 
     #HOT,#New {
@@ -53,6 +60,10 @@
         background: url(../images/hot.png) no-repeat;
     }
 
+    .slides-img{
+        width:200px;
+        height:auto;
+    }
 
     .slides-caption {
         background-color: rgba(0, 0, 0, 0.3);
@@ -103,18 +114,29 @@
         display: inline-block;
     }
 
-    #Type li {
+    li {
         display: block;
         padding: 5px 0px;
     }
 
-    #Type li img {
+    li:hover{
+        color: red;
+    }
+
+    li img {
         height: 20px;
         width: 20px;
         margin-left: -16px;
     }
 
+    .novel_title h3{
+        width:100%;
+        text-align:center;
+    }
 
+    .novel_title p{
+        margin: auto;
+    }
     .novel_description{
         background: #DFEFFF;
         border: 1px solid #DFEAF1;
