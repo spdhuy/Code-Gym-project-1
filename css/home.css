@@ -94,11 +94,6 @@
         text-decoration: none;
     }
 
-    h3 {
-        color: crimson;
-        margin-left: 16px;
-    }
-
     #Type, #Chart {
         background: #DFEFFF;
         border: 5px solid #DFEFFF;
@@ -123,7 +118,7 @@
         color: red;
     }
 
-    li img {
+    .icon-list {
         height: 20px;
         width: 20px;
         margin-left: -16px;
@@ -138,8 +133,7 @@
         margin: auto;
     }
     .novel_description{
-        background: #DFEFFF;
-        border: 1px solid #DFEAF1;
+        box-shadow: black;
         display: inline-block;
         float: left;
         margin: 20px 0px 20px 20%;
@@ -183,4 +177,7 @@
     .list_chapter li{
         display: block;
         padding: 5px 0px;
+    }
+    li img{
+        height: 240px;
     }

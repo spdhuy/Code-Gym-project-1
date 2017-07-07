@@ -1,0 +1,143 @@
+body{
+    margin : 0;
+}
+#header{
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: repeat-x;
+    width: 100%;
+    height: auto;
+    color : white;
+    font-weight: bold;
+}
+#logo{
+    margin: 0 50px 0 50px;
+    display: inline-block;
+}
+
+#login{
+    float: right;
+    margin: 0px 50px;
+    display: inline-block;
+    padding: 0 20px;
+    background-image: url("../images/bg-login.png");
+    background-repeat: repeat-x;
+    border-bottom: 1px solid gray;
+    border-radius: 2px;
+}
+input{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 14px;
+    margin: 2px;
+}
+button{
+    float:right;text-align: center; color: orangered; margin:2px 20px 0 0; width: 80px;border: 2px solid white; border-radius: 5px ;
+}
+#nav-bar{
+    width: 90%;
+    height: auto;
+    margin: 5px 50px;
+    padding: 0 50px;
+    background-image: url("../images/nav-bg.jpg");
+    background-repeat: repeat-x;
+    border-top: 2px;
+    border-radius: 5px 5px 0 0;
+}
+#nav-bar li{
+    display: inline-block;
+    padding: 5px 30px;
+}
+#content{
+    margin: 20px 50px;
+    display: inline-block;
+    float: left;
+    width: 60%;
+}
+#content h2{
+    width: 100%;
+    text-align: center;
+    color: orangered;
+    margin: 50px 0;
+}
+#list_game{
+    margin-left: 50px;
+}
+.game{
+    border: 1px solid black;
+    box-shadow-right: 4px gray;
+    color: orangered;
+    float: left;
+    width: 20%;
+    height: 170px;
+    margin: 10px 10px;
+    padding: 5px;
+    position: relative;
+    top:0px;
+}
+.game img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+#sidebar{
+    margin: 20px 50px 20px;
+    display: inline-block;
+    width: 300px;
+    float: left;
+}
+#sidebar div h4{
+    margin: 0px;
+    color: white;
+    width: 100%;
+    background-color: black;
+}
+#game_icon{
+    width: 100%;
+    border: 1px solid black;;
+    margin-bottom: 20px;
+}
+#game_icon li{
+    margin: 5px;
+    display: inline-block;
+    color: orangered;
+}
+#game_icon li img{
+    width: 50px;
+    height: 50px;
+
+}
+#latest_offer{
+    width: 100%;
+    border: 1px solid black;
+    height: auto;
+}
+#latest_offer li{
+    border: 1px solid gainsboro;
+    display: block;
+    height: 30px;
+    padding: 0;
+}
+#latest_offer li img{
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px;
+    display: inline-block;
+}
+#latest_offer p{
+    position: relative;
+    top:-10px;
+    display: inline-block;
+}
+#description{
+    margin: 20px 50px;
+    float: left;
+    width: 60%;
+}
+.detail_des{
+    border-top: 1px dotted black;
+}
+.detail_des h4{
+    color: orangered;
+
+}
